@@ -62,8 +62,11 @@ main {
 
 }
 
-.color1 {color: #12334f;}
-.color2 {color: #124e6c;}
-.color3 {color: #15748f;}
-.color4 {color: #1aabb7;}
-.color5 {color: #20dad8;}
+@media(max-width: 800px){
+    .local-gerador{
+        width: 250px;
+    }
+    .local-gerador h1{
+        font-size: 40px;
+    }
+}
